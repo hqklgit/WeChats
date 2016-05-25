@@ -1,0 +1,6 @@
+{
+  "name": "Wechats",
+  "tagline": "Android 微信抢红包",
+  "body": "# 微信抢红包（Android）\r\n\r\n\r\n\r\n# 功能列表\r\n\r\n1. 其他界面抢红包（2～4） 根据手机性能\r\n2. 在聊天界面抢红包（1～2m）根据网络情况 \r\n3. 统计红包\r\n\r\n\r\n# 实现方法\r\n1. 根据 AccessibilityService 服务，须开启服务，进入判断是否开启",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
