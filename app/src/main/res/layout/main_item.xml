@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="群组"
+            android:id="@+id/group"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:id="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_alignStart="@+id/group" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:id="@+id/textView5"
+            android:textSize="11sp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.01"
+            android:textSize="11sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/number"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/textView5"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
